@@ -215,7 +215,12 @@ Type: `Promise<void>`
 
 ### Script tag
 
-- Put a script tag similar to this `<script src='https://unpkg.com/animatable-component@0.1.1/dist/animatable-component.js'></script>` in the head of your index.html
+- Put a script tag in the head of your index.html similar to this 
+``` html 
+<script type="module" src="https://unpkg.com/@proyecto26/animatable-component@0.3.0/dist/animatable-component/animatable-component.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@proyecto26/animatable-component@0.3.0/dist/animatable-component/animatable-component.js"></script>
+``` 
+
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
